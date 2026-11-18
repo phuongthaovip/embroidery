@@ -1,0 +1,5 @@
+.codex-cli/
+.claude/settings.local.json
+.env
+Thumbs.db
+.DS_Store
