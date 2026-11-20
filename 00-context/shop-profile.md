@@ -37,3 +37,30 @@ EmbCharlotte · KVFlorida · GagaEmbroidery · HuongboutiqueCo · TaraTranCo · 
 - Niche / sản phẩm: **cùng bán file thêu máy** (digital download), cùng thị trường Etsy.
 - Vai trò: **chung quy trình idea machine** với PaolaCraftGifts — mỗi ngày đề xuất idea cho cả 2 shop, dùng chung research và winner. (Cách chia idea giữa 2 shop: `[?]`)
 - Số liệu (sales, listing, tuổi, rating, winner): `[?]` **chưa quét** — cần quét để biết công thức winner riêng của shop chị.
+
+## Store Shopify (cùng nhà)
+- **embrothread.com**: store Shopify, anh Nam xác nhận nằm trong idea machine (thêm 2026-11-19).
+- Thông tin lấy từ Shopify MCP (2026-11-19): tên store "My Store", gói Basic, tiền USD, múi giờ +07, quốc gia United States.
+- Kết nối: Claude đọc/ghi được qua Shopify MCP (plugin small-business). **Không** có quyền sửa chính sách (Settings → Policies), anh phải dán tay.
+- Tên thương hiệu: **EmbroThread** (anh Nam chốt 2026-11-19). Tên store trong Admin đã là EmbroThread (kiểm 2026-11-20).
+- Giá: **bằng giá Etsy** (lẻ ~$3.23, bundle $4.85–6.06).
+- Sản phẩm: **tạm chưa thêm** (anh chốt 2026-11-19). Có 1 sản phẩm mẫu DRAFT "[SAMPLE] Preppy Frog…" để test.
+- Giao file: thủ công qua email trong 1–3 ngày làm việc (vì chỉ digitize khi có đơn). App Digital Products đã cài, nhưng nó giao file ngay khi mua nên chỉ dùng khi file đã có sẵn.
+- Setup 2026-11-19:
+  - Trang: About Us (/pages/about), FAQ (/pages/faq).
+  - Collection (tự gom theo tag): Bundles `bundle` · Animals `animals` · Coastal & Preppy `coastal` · In the Hoop (ITH) `ith` · Christian & Faith `faith` · Christmas `christmas`. ⇒ Khi thêm sản phẩm phải gắn đúng tag.
+  - Menu chính: Home · Shop (Shop All + 5 collection) · Bundles · FAQ · About · Contact. Footer: Search · FAQ · About Us · Contact · Your Privacy Choices.
+  - Chính sách: đã đủ 5 mục (2026-11-20, Claude dán qua Chrome). Refund, Shipping, Terms lấy từ `00-context/2026-11-19-shopify-policies.md`. Contact chỉ ghi tên + web + email (chưa có địa chỉ/điện thoại). Privacy do Shopify tự tạo.
+  - Theme Horizon (2026-11-19): màu kem #FBF7EF / navy #14284B / coral #F4A9A0, font Fraunces + Nunito Sans. Trang chủ: hero (chưa có ảnh, đang dùng lớp phủ navy) · dải chạy định dạng file · Shop by theme · How it works · FAQ ngắn · email signup. Thanh thông báo nói rõ file số + giao 1–3 ngày. Hệ thiết kế ghi trong `DESIGN.md` của theme. Đã publish (theme chính, kiểm 2026-11-20).
+- Setup 2026-11-20 (qua Chrome):
+  - SEO trang chủ: title "EmbroThread | Machine Embroidery Designs & Bundles" + meta description.
+  - Store đang mở công khai (Private mode tắt). Checkout: khách nhập email (để nhận file).
+  - **Chưa có cổng thanh toán**: Shopify Payments chưa hoàn tất, anh phải tự làm (giấy tờ + ngân hàng) ở Settings → Payments.
+  - Khi thêm sản phẩm: tắt "physical product" (sản phẩm mẫu đã đúng `requiresShipping=false`).
+  - Logo (2026-11-20): `logo.png` (chữ script navy) cho header + Brand default; `logo-inverse.png` (bản màu kem, Claude tạo) cho header nền tối; `icon-embrothread.png` (chữ E + sao) làm favicon + Brand square logo. Đã publish 2026-11-20 (kèm ảnh hero trang chủ).
+  - Shopify Payments: anh để sau, khi nào bắt đầu list sản phẩm mới setup (anh chốt 2026-11-20).
+  - Banner hero (2026-11-20): ảnh AI (Magnific) vòng thêu ếch preppy + cua, cá, vỏ sò trên vải linen kem; có bản riêng cho mobile (`embrothread-hero-coastal.png`, `embrothread-hero-coastal-mobile.png` trong Files). Chữ navy căn trái.
+  - Theme Dawn 16.2.0 đã cài thêm (2026-11-20), tên "Dawn – EmbroThread", **chưa publish, chưa chỉnh**.
+  - App Digital Products: đã cài (kiểm tra 2026-11-20).
+  - Cần thêm: ảnh cho từng collection.
+- Doanh số, winner: `[?]` chưa có.
