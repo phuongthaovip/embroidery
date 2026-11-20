@@ -70,7 +70,7 @@ Quản lý pipeline trên **Trello** (anh đã chọn). Mỗi bước có thư m
   - Cách làm chạy được: tạo từng node "Generate image" → gõ prompt → chọn 1:1 → chọn model (tab ChatGPT plan) → bấm gen. Mỗi ảnh ~1–2 phút, chạy lần lượt.
   - **KHÔNG dùng "List / Create batch"**: trang hay crash khi nhập prompt, và batch ra ảnh sai prompt (ngày 2026-10-18).
   - Khi chờ gen, khung nhìn có thể tự zoom/đổi vị trí. Đừng bấm vào vùng nút gen/Stop của node đang chạy, vì gen lại sẽ ghi đè ảnh cũ.
-- **Trello** — board của anh: https://trello.com/b/cZnw2AWQ/duy-nam. Lưu ý: Trello đang kết nối bằng tài khoản *Cường Vũ (arronvu)* và **chưa có quyền vào board này** (tính đến 2026-10-17).
+- **Trello** — board đang dùng: **VP-EMBROIDERY** https://trello.com/b/8ImjXI5V/vp-embroidery (kết nối được, 2026-11-20). Cột theo chủ đề (CHRISTMAS, Halloween, Animal Lover, Mahjong…) + IDEA RAW, Cần Design, Cần Listing. Mỗi card = 1 mẫu, tên là mã `VPE<yymmdd><stt>`, ảnh mockup đính kèm. Board cũ duy-nam: tài khoản arronvu chưa có quyền.
 - **Google Drive** — lưu trữ / chia sẻ file. [?]
 - Chrome — xem trực tiếp Etsy, shop đối thủ.
 
