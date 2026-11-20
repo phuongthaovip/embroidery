@@ -58,6 +58,11 @@ EmbCharlotte · KVFlorida · GagaEmbroidery · HuongboutiqueCo · TaraTranCo · 
   - **Chưa có cổng thanh toán**: Shopify Payments chưa hoàn tất, anh phải tự làm (giấy tờ + ngân hàng) ở Settings → Payments.
   - Khi thêm sản phẩm: tắt "physical product" (sản phẩm mẫu đã đúng `requiresShipping=false`).
   - Logo (2026-11-20): `logo.png` (chữ script navy) cho header + Brand default; `logo-inverse.png` (bản màu kem, Claude tạo) cho header nền tối; `icon-embrothread.png` (chữ E + sao) làm favicon + Brand square logo. Đã publish 2026-11-20 (kèm ảnh hero trang chủ).
+  - Terms of Service: bản đầy đủ 14 mục đã đăng (2026-11-20).
+  - **Việc dở, anh nói "lưu lại tính sau" (2026-11-20):**
+    - Làm lại giao diện theo bài học ở `01-research/2026-11-20-store-design-benchmark.md`. Có 3 hướng chờ anh chọn: (1) Catalog rõ ràng kiểu Urban Threads/Kara (Claude đề xuất), (2) Theo mùa/khuyến mãi kiểu Emb Library/JuJu, (3) Boutique preppy.
+    - Banner hero mới: anh chọn ảnh "máy thêu đang thêu dở mẫu ếch". Đã gen thử trên Magnific (project Personal): ảnh desktop đẹp nhất là máy thêu + ếch thêu dở + patch cua, cá + 3 cuộn chỉ, nhưng đồ vật nằm hơi giữa; bản mở rộng sang trái bị lỗi (vẽ thêm máy thứ 2). Chưa gắn lên store.
+    - Store đang có 10 sản phẩm Christmas ACTIVE nhưng **chưa có cổng thanh toán**, khách không checkout được.
   - Shopify Payments: anh để sau, khi nào bắt đầu list sản phẩm mới setup (anh chốt 2026-11-20).
   - Banner hero (2026-11-20): ảnh AI (Magnific) vòng thêu ếch preppy + cua, cá, vỏ sò trên vải linen kem; có bản riêng cho mobile (`embrothread-hero-coastal.png`, `embrothread-hero-coastal-mobile.png` trong Files). Chữ navy căn trái.
   - Theme Dawn 16.2.0 đã cài thêm (2026-11-20), tên "Dawn – EmbroThread", **chưa publish, chưa chỉnh**.
