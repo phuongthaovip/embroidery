@@ -8,7 +8,7 @@ sources:
 
 # Team — bot, phiên làm việc, ai giữ gì
 
-> Cập nhật 2026-11-21. Bot nào đổi phạm vi thì sửa dòng của mình, ghi ngày. `[?]` = chưa rõ, hỏi anh Nam.
+> Cập nhật 2026-11-21 (đối chiếu `orca bot list` 2026-11-21). Bot nào đổi phạm vi thì sửa dòng của mình, ghi ngày. `[?]` = chưa rõ, hỏi anh Nam.
 
 ## Người
 | Ai | Vai trò |
@@ -18,19 +18,21 @@ sources:
 | Designer(s) | Digitize file khi có đơn. Board "Designer Online - Nguyen Hop" (EMBN). Danh sách người `[?]` |
 
 ## Bot (EmbroThread team)
-Đang có: CEO, Product, QA, Ads. Sẽ thêm: Shopify, SEO, Social, Email, CS. Cho tới khi bot "sẽ thêm" chạy, việc của nó do **CEO giao lại** (thường cho Product hoặc phiên Claude), không ai tự nhận.
+Đang có trên Orca (kiểm `orca bot list` 2026-11-21): **CEO, Product, QA, Shopify, Email** (đều chạy Claude, chưa liên kết app nào). Chưa có bot: Ads, SEO, Social, CS. Cho tới khi các bot đó được tạo, việc của nó do **CEO giao lại** (thường cho Product hoặc phiên Claude), không ai tự nhận.
 
 | Bot | Việc | Sở hữu (chỉ bot này ghi) | Không được đụng | Báo cáo về |
 |---|---|---|---|---|
 | **CEO** | Ưu tiên, giao việc, báo cáo cho anh Nam | [[brain/metrics/README]] (snapshot tuần), lint brain hàng tuần ([[brain-lint]]), dọn [[inbox]], cột "Chủ" trong [[store-state]] | Không tự sửa sản phẩm/theme/ads; không chốt thay anh Nam | anh Nam |
 | **Product** | Idea, ảnh mockup, listing (Etsy + Shopify) | [`02-ideas/`](../02-ideas/), [`03-briefs/`](../03-briefs/), [`04-listings/`](../04-listings/), tạo/sửa sản phẩm Shopify theo [`shopify-listing-standard.md`](../00-context/shopify-listing-standard.md), [[idea-to-listing]], [[shopify-listing]], [[mockup-generation]], [[image-webp-redo]] | Theme, menu, giá chung, ads, email | CEO |
 | **QA** | Kiểm file thêu + listing trước/sau khi lên | Báo cáo QA (ghi vào [[inbox]] hoặc file `05-results/YYYY-MM-DD-qa-*.md`), [[trademark-ip-check]] | Không tự sửa listing — gửi lỗi cho Product | CEO |
-| **Ads** | Quảng cáo trả tiền (Etsy Ads, Google/Meta khi có) | Chiến dịch ads, số ads trong [[brain/metrics/README]] | Không đổi giá, sản phẩm, theme | CEO |
-| **Shopify** *(sắp có)* | Theme, trang, menu, collection, conversion | Theme, menu, trang, collection, app setting; cập nhật [[store-state]] | Nội dung sản phẩm (Product), policies cần anh dán/duyệt | CEO |
-| **SEO** *(sắp có)* | Tìm kiếm (Google + Etsy search) | Meta trang/collection, chuẩn keyword; góp ý title/tag cho Product | Không đổi handle đã publish trừ khi có redirect 301 | CEO |
-| **Social** *(sắp có)* | Mạng xã hội organic (Pinterest, IG, FB…) | Lịch post, tài khoản social | Không chạy ads (Ads), không đổi store | CEO |
-| **Email** *(sắp có)* | Email marketing (signup, flow, newsletter) | Danh sách + flow email | Không gửi email giao file đơn hàng (CS) | CEO |
-| **CS** *(sắp có)* | Khách hàng: đơn, giao file, hỏi đáp, hoàn tiền theo policy | Hộp thư khách, [[order-digitize-delivery]] | Không đổi policy, giá | CEO |
+| **Ads** *(chưa có bot)* | Quảng cáo trả tiền (Etsy Ads, Google/Meta khi có) | Chiến dịch ads, số ads trong [[brain/metrics/README]] | Không đổi giá, sản phẩm, theme | CEO |
+| **Shopify** | Theme, trang, menu, collection, conversion | Theme, menu, trang, collection, app setting; cập nhật [[store-state]] | Nội dung sản phẩm (Product), policies cần anh dán/duyệt | CEO |
+| **SEO** *(chưa có bot)* | Tìm kiếm (Google + Etsy search) | Meta trang/collection, chuẩn keyword; góp ý title/tag cho Product | Không đổi handle đã publish trừ khi có redirect 301 | CEO |
+| **Social** *(chưa có bot)* | Mạng xã hội organic (Pinterest, IG, FB…) | Lịch post, tài khoản social | Không chạy ads (Ads), không đổi store | CEO |
+| **Email** | Email marketing (signup, flow, newsletter) | Danh sách + flow email | Không gửi email giao file đơn hàng (CS) | CEO |
+| **CS** *(chưa có bot)* | Khách hàng: đơn, giao file, hỏi đáp, hoàn tiền theo policy | Hộp thư khách, [[order-digitize-delivery]] | Không đổi policy, giá | CEO |
+
+Gọi bot: `orca bot list` để xem; giao việc `orca orchestration send --to "bot:EmbroThread <Tên>" --type handoff --subject "..." --body "..."`; hỏi ý `--type question`; báo tin `--type status`.
 
 ## Phiên / máy làm việc
 | Phiên | Đọc file gì | Dùng cho | Ghi chú |

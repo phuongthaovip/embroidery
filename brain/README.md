@@ -9,7 +9,7 @@ sources:
 # Second brain — Embroidery / EmbroThread
 
 > Tạo 2026-11-21. Đây là **chỗ đọc đầu tiên** cho mọi người và mọi bot làm việc trong repo này
-> (anh Nam, bot EmbroThread CEO / Product / QA / Ads / …, các phiên Claude và Codex).
+> (anh Nam, bot EmbroThread CEO / Product / QA / Shopify / Email / …, các phiên Claude và Codex).
 
 ## Brain là gì
 Repo này điều hành 3 kênh bán file thêu máy từ một thư mục: 2 shop Etsy (**PaolaCraftGifts**, **KyraGiftsCo**) và store Shopify **EmbroThread.com**.
