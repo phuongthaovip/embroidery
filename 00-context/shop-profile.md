@@ -39,6 +39,7 @@ EmbCharlotte · KVFlorida · GagaEmbroidery · HuongboutiqueCo · TaraTranCo · 
 - Số liệu (sales, listing, tuổi, rating, winner): `[?]` **chưa quét** — cần quét để biết công thức winner riêng của shop chị.
 
 ## Store Shopify (cùng nhà)
+> **Từ 2026-11-21: trạng thái hiện tại của store ở `brain/store-state.md`.** Phần dưới là lịch sử setup, không ghi thêm vào đây.
 - **embrothread.com**: store Shopify, anh Nam xác nhận nằm trong idea machine (thêm 2026-11-19).
 - Thông tin lấy từ Shopify MCP (2026-11-19): tên store "My Store", gói Basic, tiền USD, múi giờ +07, quốc gia United States.
 - Kết nối: Claude đọc/ghi được qua Shopify MCP (plugin small-business). **Không** có quyền sửa chính sách (Settings → Policies), anh phải dán tay.

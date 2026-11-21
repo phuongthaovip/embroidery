@@ -3,6 +3,8 @@
 > Claude đọc file này mỗi phiên làm việc. Giữ ngắn gọn, cập nhật khi có thay đổi.
 > Chỗ có `[?]` = chưa xác nhận, Claude phải hỏi lại anh Nam thay vì tự đoán.
 
+> **Second brain:** đọc `brain/README.md` và `brain/store-state.md` trước; ghi quyết định mới vào `brain/decisions.md`. (Thêm 2026-11-21)
+
 ## 1. Người làm việc cùng
 - **Anh Nam** — chủ shop Etsy bán machine embroidery design.
 - Giao tiếp bằng **tiếng Việt**. Thuật ngữ Etsy/SEO/embroidery giữ nguyên tiếng Anh.
