@@ -22,3 +22,4 @@ sources: []
 | 2026-11-21 | EmbroThread Shopify | Chuẩn bị tuần 23/11 (chưa ghi store): kiểm collection/menu/theme, đề xuất menu + ảnh collection, checklist sale BF→CM, bước logo. Sửa store-state: theme live là Horizon, logo đã live, múi giờ Phoenix, 154 SP (137/17), giá lẫn $3.23/$3.99 | 05-results/2026-11-24-shopify-prep.md, brain/store-state.md |
 | 2026-11-21 | EmbroThread QA | Đếm lại trên Admin (chỉ đọc): 154 = 153 thật (137 ACTIVE / 16 DRAFT) + 1 [SAMPLE] DRAFT; lỗi nặng: 22 ACTIVE ảnh nền đen, 10 giá $3.99, sample còn trong Admin; thêm dòng chốt số dưới ⚠️ mâu thuẫn | 05-results/2026-11-23-qa-count.md, brain/store-state.md |
 | 2026-11-21 | EmbroThread CEO | Đề xuất cấu trúc giá mới (chờ anh duyệt, chưa đổi store) | 05-results/2026-11-21-pricing-structure.md |
+| 2026-11-21 | EmbroThread CEO | Ghi quyết định giá mới; giao Product, Shopify, Email, QA/QC áp dụng | brain/decisions.md |

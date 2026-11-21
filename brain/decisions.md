@@ -19,6 +19,7 @@ sources:
 
 | Ngày | Quyết định | Phạm vi | Nguồn |
 |---|---|---|---|
+| 2026-11-21 | **Cấu trúc giá EmbroThread**: lẻ $3.99 (bỏ $3.23); bundle $5.99/8.99/11.99/14.99; alphabet $9.99; tự giảm 3+ mẫu lẻ -20%, 5+ -30%; free design đổi email; BF→CM -30% toàn store 27–30/11; không gạch giá ảo | ET | [`05-results/2026-11-21-pricing-structure.md`](../05-results/2026-11-21-pricing-structure.md) |
 | 2026-11-21 | Logo + favicon đã lưu vào theme Dawn nhưng **chưa publish** ("anh nói chưa") | ET | [`00-context/shop-profile.md`](../00-context/shop-profile.md) (kiểm tra 2026-11-21) |
 | 2026-11-21 | Bảng giá Shopify: lẻ $3.23 · bundle 2–5 $5.99 · 6–10 $8.99 · 11–15 $11.99 · 16–20 $14.99 · alphabet/font $9.99. ⚠️ live đang $3.99 (xem [[store-state]]) | ET | [`00-context/shopify-listing-standard.md`](../00-context/shopify-listing-standard.md) §7 |
 | 2026-11-21 | Ảnh có chữ "Instant Download" hoặc logo shop khác → **chờ làm lại bằng Canva**, chưa list | ET | [`shopify-listing-standard.md`](../00-context/shopify-listing-standard.md) §2 |
