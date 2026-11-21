@@ -17,3 +17,4 @@ sources: []
 | 2026-11-21 | Claude (Orca worker, task_39e80db6cc31) | Thêm dòng trỏ tới brain ở đầu [`CLAUDE.md`](../CLAUDE.md), [`AGENTS.md`](../AGENTS.md); mục Shopify của [`shop-profile.md`](../00-context/shop-profile.md) trỏ sang store-state | CLAUDE.md, AGENTS.md, 00-context/shop-profile.md |
 | 2026-11-21 | Claude (Orca worker, task_39e80db6cc31) | Sửa dòng "Tạm bỏ Mahjong" trong CLAUDE.md/AGENTS.md thành "đã bật lại 2026-10-24" (nguồn có ngày: `02-ideas/daily/2026-10-24-mahjong.md`) | CLAUDE.md, AGENTS.md, brain/decisions |
 | 2026-11-21 | Claude (phiên embroidery) | Sửa danh sách bot trong team cho khớp `orca bot list`: có CEO, Product, QA, Shopify, Email; Ads/SEO/Social/CS chưa có bot; thêm cách gọi bot qua Orca | brain/team.md |
+| 2026-11-21 | EmbroThread CEO | Lên kế hoạch tuần 23–29/11 (nháp, chờ anh duyệt, chưa giao việc); cập nhật chủ việc BF→CM trong store-state | 05-results/2026-11-23-weekly-plan.md, brain/store-state.md |

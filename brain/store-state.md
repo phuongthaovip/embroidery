@@ -72,7 +72,7 @@ Nguồn: [`shopify-listing-standard.md`](../00-context/shopify-listing-standard.
 | Làm lại ảnh 123 card bằng Canva rồi list | Product (+ QA kiểm) | mở |
 | List 9 card Christmas board Designer Online - Nguyen Hop (EMBN) | Product | chưa list |
 | Đếm lại số sản phẩm thật trên Admin | QA | mở (mâu thuẫn 143 vs 153) |
-| Bán Black Friday → Cyber Monday (27–30/11) | CEO / Ads | `[?]` chưa có kế hoạch — và chưa nhận được tiền |
+| Bán Black Friday → Cyber Monday (27–30/11) | CEO (Shopify dựng sale, Email gửi mail; chưa có bot Ads) | Kế hoạch nháp chờ anh duyệt: [`05-results/2026-11-23-weekly-plan.md`](../05-results/2026-11-23-weekly-plan.md). Cần thanh toán trước T4 25/11 |
 | Lô Valentine V1–V14 (list trước ~15/12) | Product | chờ anh duyệt ([`01-research/2026-11-21-valentine-competitor-scan.md`](../01-research/2026-11-21-valentine-competitor-scan.md)) |
 | Contact: địa chỉ/điện thoại; Terms §13 governing law | anh Nam | `[?]` |
 
