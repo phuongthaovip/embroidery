@@ -18,12 +18,13 @@ sources:
 | Designer(s) | Digitize file khi có đơn. Board "Designer Online - Nguyen Hop" (EMBN). Danh sách người `[?]` |
 
 ## Bot (EmbroThread team)
-Đang có trên Orca (kiểm `orca bot list` 2026-11-21): **CEO, Product, QA, Shopify, Email** (đều chạy Claude, chưa liên kết app nào). Chưa có bot: Ads, SEO, Social, CS. Cho tới khi các bot đó được tạo, việc của nó do **CEO giao lại** (thường cho Product hoặc phiên Claude), không ai tự nhận.
+Đang có trên Orca (kiểm `orca bot list` 2026-11-21): **CEO, Product, QA/QC, Shopify, Email, Design** (Design thêm 2026-11-21, nhận toàn bộ việc ảnh từ Product) (đều chạy Claude, chưa liên kết app nào). Chưa có bot: Ads, SEO, Social, CS. Cho tới khi các bot đó được tạo, việc của nó do **CEO giao lại** (thường cho Product hoặc phiên Claude), không ai tự nhận.
 
 | Bot | Việc | Sở hữu (chỉ bot này ghi) | Không được đụng | Báo cáo về |
 |---|---|---|---|---|
 | **CEO** | Ưu tiên, giao việc, báo cáo cho anh Nam | [[brain/metrics/README]] (snapshot tuần), lint brain hàng tuần ([[brain-lint]]), dọn [[inbox]], cột "Chủ" trong [[store-state]] | Không tự sửa sản phẩm/theme/ads; không chốt thay anh Nam | anh Nam |
-| **Product** | Idea, ảnh mockup, listing (Etsy + Shopify) | [`02-ideas/`](../02-ideas/), [`03-briefs/`](../03-briefs/), [`04-listings/`](../04-listings/), tạo/sửa sản phẩm Shopify theo [`shopify-listing-standard.md`](../00-context/shopify-listing-standard.md), [[idea-to-listing]], [[shopify-listing]], [[mockup-generation]], [[image-webp-redo]] | Theme, menu, giá chung, ads, email | CEO |
+| **Product** | Idea, listing (Etsy + Shopify), gắn ảnh Design làm vào sản phẩm, Trello "Listing Shopify" | [`02-ideas/`](../02-ideas/), [`03-briefs/`](../03-briefs/), [`04-listings/`](../04-listings/), tạo/sửa sản phẩm Shopify theo [`shopify-listing-standard.md`](../00-context/shopify-listing-standard.md), [[idea-to-listing]], [[shopify-listing]] | Tự làm ảnh (việc của Design), theme, menu, giá chung, ads, email | CEO |
+| **Design** | Mọi ảnh: mockup AI mẫu mới, làm lại ảnh bằng Canva, WebP 1000px, ảnh collection, banner, ảnh email/social | Ảnh trong `raw/`, [[mockup-generation]], [[image-webp-redo]], [`00-context/image-style-guide.md`](../00-context/image-style-guide.md) | Không tự tạo/sửa sản phẩm (giao ảnh cho Product gắn), không sửa theme | CEO |
 | **QA** | Kiểm file thêu + listing trước/sau khi lên | Báo cáo QA (ghi vào [[inbox]] hoặc file `05-results/YYYY-MM-DD-qa-*.md`), [[trademark-ip-check]] | Không tự sửa listing — gửi lỗi cho Product | CEO |
 | **Ads** *(chưa có bot)* | Quảng cáo trả tiền (Etsy Ads, Google/Meta khi có) | Chiến dịch ads, số ads trong [[brain/metrics/README]] | Không đổi giá, sản phẩm, theme | CEO |
 | **Shopify** | Theme, trang, menu, collection, conversion | Theme, menu, trang, collection, app setting; cập nhật [[store-state]] | Nội dung sản phẩm (Product), policies cần anh dán/duyệt | CEO |
