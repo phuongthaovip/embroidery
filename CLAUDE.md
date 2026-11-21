@@ -3,7 +3,7 @@
 > Claude đọc file này mỗi phiên làm việc. Giữ ngắn gọn, cập nhật khi có thay đổi.
 > Chỗ có `[?]` = chưa xác nhận, Claude phải hỏi lại anh Nam thay vì tự đoán.
 
-> **Second brain:** đọc `brain/README.md` và `brain/store-state.md` trước; ghi quyết định mới vào `brain/decisions.md`. (Thêm 2026-11-21)
+> **Second brain:** đọc `brain/README.md` và `brain/store-state.md` trước; ghi quyết định mới vào `brain/decisions.md`. Mọi thay đổi brain ghi 1 dòng vào `brain/log.md`. File này là lớp *schema*; `brain/` là wiki; các thư mục 00–05 là nguồn thô. (Thêm 2026-11-21)
 
 ## 1. Người làm việc cùng
 - **Anh Nam** — chủ shop Etsy bán machine embroidery design.
@@ -48,7 +48,7 @@ Quản lý pipeline trên **Trello** (anh đã chọn). Mỗi bước có thư m
 
 ### Ràng buộc idea (anh Nam chốt)
 - **Bundle ≤ 20 mẫu.** Không làm mega bundle 100+ (designer không kịp), kể cả ITH.
-- **Tạm bỏ Mahjong**: không đề xuất cho đến khi anh nói lại.
+- **Mahjong: đã bật lại** (anh Nam bật lại 2026-10-24, nguồn `02-ideas/daily/2026-10-24-mahjong.md`; trước đó tạm bỏ). Data 2026-10-17 cho thấy Mahjong yếu, nên đo kết quả các lô Mahjong.
 - **Christian/faith: được làm.**
 - Mỗi ngày nên trộn: nhân bản công thức winner của shop (preppy/coastal animal bundle, ITH, funny animal) + khoảng trống từ đối thủ (Christian, ITH tag, mini icon ≤20) + đúng mùa (đi trước mùa 4–8 tuần).
 - Prompt ảnh theo `templates/image-prompt.md` (cho ChatGPT / Gavana).

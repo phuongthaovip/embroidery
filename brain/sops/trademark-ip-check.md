@@ -1,6 +1,15 @@
+---
+updated: 2026-11-21
+owner: QA
+sources:
+  - "CLAUDE.md"
+  - "00-context/shopify-listing-standard.md"
+  - "02-ideas/daily/2026-11-13-public-health.md"
+---
+
 # SOP — Kiểm tra trademark / IP
 
-> Chủ: **QA** (Product tự lọc trước). Cập nhật 2026-11-21. Nguồn: `CLAUDE.md` §5, `00-context/shopify-listing-standard.md` §1, `02-ideas/daily/2026-11-13-public-health.md`. Skill có sẵn: `/etsy-check` (Trademarkia, USPTO, TMview).
+> Chủ: **QA** (Product tự lọc trước). Cập nhật 2026-11-21. Nguồn: [`CLAUDE.md`](../../CLAUDE.md) §5, [`00-context/shopify-listing-standard.md`](../../00-context/shopify-listing-standard.md) §1, [`02-ideas/daily/2026-11-13-public-health.md`](../../02-ideas/daily/2026-11-13-public-health.md). Skill có sẵn: `/etsy-check` (Trademarkia, USPTO, TMview).
 
 ## Không làm
 Nhân vật, logo, thương hiệu, đội thể thao, lời bài hát, phim/truyện, người nổi tiếng, tên chính trị gia, nhại game/brand (vd. Grinch, Snoopy, Disney, Pac-Man, "Santa Baby", Oregon Trail, RFK Jr), logo tổ chức (CDC, AAP, Red Cross — chữ thập đỏ).

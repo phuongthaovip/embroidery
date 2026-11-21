@@ -1,3 +1,9 @@
+---
+updated: 2026-11-21
+owner: CEO
+sources: []
+---
+
 # Metrics — snapshot hàng tuần
 
 > Chủ: **CEO**. Mỗi tuần 1 file `brain/metrics/YYYY-MM-DD.md` (ngày chụp). Không đoán số: ghi nguồn (Shopify Analytics, Etsy Stats, HeyEtsy…) + ngày lấy; chưa có → `[?]`.
