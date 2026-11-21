@@ -63,9 +63,13 @@ EmbCharlotte · KVFlorida · GagaEmbroidery · HuongboutiqueCo · TaraTranCo · 
     - Làm lại giao diện theo bài học ở `01-research/2026-11-20-store-design-benchmark.md`. Có 3 hướng chờ anh chọn: (1) Catalog rõ ràng kiểu Urban Threads/Kara (Claude đề xuất), (2) Theo mùa/khuyến mãi kiểu Emb Library/JuJu, (3) Boutique preppy.
     - Banner hero mới: anh chọn ảnh "máy thêu đang thêu dở mẫu ếch". Đã gen thử trên Magnific (project Personal): ảnh desktop đẹp nhất là máy thêu + ếch thêu dở + patch cua, cá + 3 cuộn chỉ, nhưng đồ vật nằm hơi giữa; bản mở rộng sang trái bị lỗi (vẽ thêm máy thứ 2). Chưa gắn lên store.
     - Store đang có 10 sản phẩm Christmas ACTIVE nhưng **chưa có cổng thanh toán**, khách không checkout được.
+  - **Kiểm tra 2026-11-21 (Chrome):** theme đang chạy là **"Dawn – EmbroThread"** (Horizon đã thành UNPUBLISHED). Giá sản phẩm giờ là **$3.99**. Có 10 sản phẩm Christmas ACTIVE, nhưng checkout báo "This store can't accept payments right now". Theme Dawn chưa có logo ảnh và favicon. Menu có link tới collection trống (Bundles, In the Hoop, Christian & Faith = 0 sản phẩm) → **đã bỏ khỏi menu chính** (live). Logo + favicon đã lưu vào theme Dawn nhưng **chưa publish** (anh nói chưa, 2026-11-21). Khi collection có sản phẩm thì thêm lại vào menu.
   - Shopify Payments: anh để sau, khi nào bắt đầu list sản phẩm mới setup (anh chốt 2026-11-20).
   - Banner hero (2026-11-20): ảnh AI (Magnific) vòng thêu ếch preppy + cua, cá, vỏ sò trên vải linen kem; có bản riêng cho mobile (`embrothread-hero-coastal.png`, `embrothread-hero-coastal-mobile.png` trong Files). Chữ navy căn trái.
   - Theme Dawn 16.2.0 đã cài thêm (2026-11-20), tên "Dawn – EmbroThread", **chưa publish, chưa chỉnh**.
   - App Digital Products: đã cài (kiểm tra 2026-11-20).
   - Cần thêm: ảnh cho từng collection.
+- Sản phẩm (2026-11-21): 153 sản phẩm Christmas (137 ACTIVE đã publish, 16 DRAFT), ảnh đều webp 1000px, tên file theo handle + alt chuẩn SEO (đổi 2026-11-21). Danh sách: `04-listings/2026-11-21-shopify-christmas-batch2.md`. Tiêu chuẩn listing: `00-context/shopify-listing-standard.md`. 123 card cột Christmas VP chờ làm lại ảnh bằng Canva.
+- Board Trello thứ 2: **Designer Online - Nguyen Hop** https://trello.com/b/ztGSbKOs/designer-online-nguyen-hop (workspace EMB, riêng tư, đọc được qua Trello MCP). Mã card `EMBN<số>`, mô tả card có sẵn title + 13 tag Etsy. Cột Christmas có 9 card, chưa list.
+- Shopify CLI 5.0.2 cài ở `~/.local/bin/shopify` (chạy bằng Node 26), đã đăng nhập store (2026-11-21). Dùng `shopify store execute` cho việc hàng loạt vì Shopify MCP chặn bulk mutation.
 - Doanh số, winner: `[?]` chưa có.
